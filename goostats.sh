@@ -5,3 +5,5 @@ echo "working with file: ${fname}"
 echo "welcome to the thunder dome"
 # Compute the min/max/range
 mix=$( cat ${fname} | sort | tail -1)
+min=$( cat ${fname} | sort | head -1)
+
